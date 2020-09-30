@@ -1,0 +1,171 @@
+$(function(){
+  
+
+ if (window.matchMedia("(max-width:670px)").matches){
+   $(".q_1").click(function(){
+     $("#login-modal").slideDown(500);
+   });
+   $("#login-form_1").css("display","block");
+   $("#login-form_2").css("display","none");
+   $("#login-form_3").css("display","none");
+   $("#login-form_4").css("display","none");
+   $("#login-form_5").css("display","none");
+   $("#login-form_6").css("display","none");
+   $(".q_2").click(function(){
+     $("#login-modal").slideDown(500);
+     $("#login-form_2").css("display","block");
+     $("#login-form_1").css("display","none");
+     $("#login-form_3").css("display","none");
+     $("#login-form_4").css("display","none");
+     $("#login-form_5").css("display","none");
+     $("#login-form_6").css("display","none");
+   });
+   $(".q_3").click(function(){
+     $("#login-modal").slideDown(500);
+     $("#login-form_2").css("display","none");
+     $("#login-form_1").css("display","none");
+     $("#login-form_3").css("display","block");
+     $("#login-form_4").css("display","none");
+     $("#login-form_5").css("display","none");
+     $("#login-form_6").css("display","none");
+   });
+   $(".q_4").click(function(){
+     $("#login-modal").slideDown(500);
+     $("#login-form_2").css("display","none");
+     $("#login-form_1").css("display","none");
+     $("#login-form_3").css("display","none");
+     $("#login-form_4").css("display","block");
+     $("#login-form_5").css("display","none");
+     $("#login-form_6").css("display","none");
+   });
+   $(".q_4").click(function(){
+     $("#login-modal").slideDown(500);
+     $("#login-form_2").css("display","none");
+     $("#login-form_1").css("display","none");
+     $("#login-form_3").css("display","none");
+     $("#login-form_4").css("display","block");
+     $("#login-form_5").css("display","none");
+     $("#login-form_6").css("display","none");
+   });
+   $(".q_5").click(function(){
+     $("#login-modal").slideDown(500);
+     $("#login-form_2").css("display","none");
+     $("#login-form_1").css("display","none");
+     $("#login-form_3").css("display","none");
+     $("#login-form_4").css("display","none");
+     $("#login-form_5").css("display","block");
+     $("#login-form_6").css("display","none");
+   });
+   $(".q_6").click(function(){
+     $("#login-modal").slideDown(500);
+     $("#login-form_2").css("display","none");
+     $("#login-form_1").css("display","none");
+     $("#login-form_3").css("display","none");
+     $("#login-form_4").css("display","none");
+     $("#login-form_5").css("display","none");
+     $("#login-form_6").css("display","block");
+   });
+   $(".close-modal").click(function(){
+    $("#login-modal").slideUp(500);
+     $("login-form_1").css("display","none");
+     $("login-form_2").css("display","none");
+     $("login-form_3").css("display","none");
+     $("login-form_4").css("display","none");
+     $("login-form_5").css("display","none");
+     $("login-form_6").css("display","none");
+  });
+}else{
+  $(".q_1").click(function(){
+    $("#login-modal").fadeIn();
+  });
+  $("#login-form_1").css("display","block");
+  $("#login-form_2").css("display","none");
+  $("#login-form_3").css("display","none");
+  $("#login-form_4").css("display","none");
+  $("#login-form_5").css("display","none");
+  $("#login-form_6").css("display","none");
+  $(".q_2").click(function(){
+    $("#login-modal").fadeIn();
+    $("#login-form_2").css("display","block");
+    $("#login-form_1").css("display","none");
+    $("#login-form_3").css("display","none");
+    $("#login-form_4").css("display","none");
+    $("#login-form_5").css("display","none");
+    $("#login-form_6").css("display","none");
+  });
+  $(".q_3").click(function(){
+    $("#login-modal").fadeIn();
+    $("#login-form_2").css("display","none");
+    $("#login-form_1").css("display","none");
+    $("#login-form_3").css("display","block");
+    $("#login-form_4").css("display","none");
+    $("#login-form_5").css("display","none");
+    $("#login-form_6").css("display","none");
+  });
+  $(".q_4").click(function(){
+    $("#login-modal").fadeIn();
+    $("#login-form_2").css("display","none");
+    $("#login-form_1").css("display","none");
+    $("#login-form_3").css("display","none");
+    $("#login-form_4").css("display","block");
+    $("#login-form_5").css("display","none");
+    $("#login-form_6").css("display","none");
+  });
+  $(".q_4").click(function(){
+    $("#login-modal").fadeIn();
+    $("#login-form_2").css("display","none");
+    $("#login-form_1").css("display","none");
+    $("#login-form_3").css("display","none");
+    $("#login-form_4").css("display","block");
+    $("#login-form_5").css("display","none");
+    $("#login-form_6").css("display","none");
+  });
+  $(".q_5").click(function(){
+    $("#login-modal").fadeIn();
+    $("#login-form_2").css("display","none");
+    $("#login-form_1").css("display","none");
+    $("#login-form_3").css("display","none");
+    $("#login-form_4").css("display","none");
+    $("#login-form_5").css("display","block");
+    $("#login-form_6").css("display","none");
+  });
+  $(".q_6").click(function(){
+    $("#login-modal").fadeIn();
+    $("#login-form_2").css("display","none");
+    $("#login-form_1").css("display","none");
+    $("#login-form_3").css("display","none");
+    $("#login-form_4").css("display","none");
+    $("#login-form_5").css("display","none");
+    $("#login-form_6").css("display","block");
+  });
+  $(".close-modal").click(function(){
+   $("#login-modal").fadeOut();
+    $("login-form_1").css("display","none");
+    $("login-form_2").css("display","none");
+    $("login-form_3").css("display","none");
+    $("login-form_4").css("display","none");
+    $("login-form_5").css("display","none");
+    $("login-form_6").css("display","none");
+ });
+ $(".logo").click(function(){
+
+   if ($(".logo").hasClass('close')) {
+     $(".logo").removeClass('close');
+     $(".menu_left").slideUp(500);
+     $("header").css("border","none");
+     $("header").css("background-color","transparent")
+
+   } else {
+     $(".logo").addClass('close');
+     $(".menu_left").slideDown(500);
+     $("header").css("background-color","#fff");
+     $("header").css("border","solid 1px #bbb");
+   }
+ });
+
+}
+
+
+
+
+});
