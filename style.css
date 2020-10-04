@@ -196,14 +196,17 @@ select{
 }
 
 #login-form_1{
+  box-sizing:border-box;
   padding:20px;
   display: none;
 }
 #login-form_2{
+  box-sizing:border-box;
   padding:20px;
   display: none;
 }
 #login-form_3{
+  box-sizing: border-box;
   padding:20px;
   display: none;
 }
@@ -219,13 +222,14 @@ select{
   padding:20px;
   display: none;
 }
+
 .modal {
   background-color:#fff;
   border:solid 1px #bbb;
   position:absolute;
   top: 20%;
   left: 34%;
-  height:300px;
+  height:auto;
   width:500px;
   padding: 20px 0 40px;
   border-radius: 10px;
