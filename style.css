@@ -55,7 +55,7 @@ form{
   width:460px;
   border-radius: 6px 6px 6px 6px;
 }
-.image img{
+.image {
   background-image: url("back_01.jpg");
   background-size:cover;
   background-position: center;
