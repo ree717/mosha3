@@ -2,6 +2,7 @@ body{
   margin:0px;
   color:#484848;
 }
+body::before {background:url(‘<strong>http://IMAGE-URL</strong>‘) no-repeat left top;background-size: 100% auto;display: block;position: fixed;top: 0;　left: 0;}
 header{
   height:80px;
   position:absolute;
