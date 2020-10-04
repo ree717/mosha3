@@ -2,6 +2,7 @@ body{
   margin:0px;
   color:#484848;
 }
+body::before {background:url(‘https://raw.githubusercontent.com/ree717/mosha3/master/back_01.jpg‘) no-repeat left top;background-size: 100% auto;display: block;position: fixed;top: 0;left: 0;<br>width: 100%;height: 100%;margin:80px 0 0 0 ;padding:0 0 0 0;content: “”;z-index: -1;}
 header{
   height:80px;
   position:absolute;
