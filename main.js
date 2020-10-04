@@ -1,7 +1,7 @@
 $(function(){
-  
 
- if (window.matchMedia("(max-width:670px)").matches){
+
+
    $(".q_1").click(function(){
      $("#login-modal").slideDown(500);
    });
@@ -74,7 +74,7 @@ $(function(){
      $("login-form_5").css("display","none");
      $("login-form_6").css("display","none");
   });
-}else{
+
   $(".q_1").click(function(){
     $("#login-modal").fadeIn();
   });
@@ -147,25 +147,24 @@ $(function(){
     $("login-form_5").css("display","none");
     $("login-form_6").css("display","none");
  });
- $(".logo").click(function(){
+        $(".logo").click(function(){
 
-   if ($(".logo").hasClass('close')) {
-     $(".logo").removeClass('close');
-     $(".menu_left").slideUp(500);
-     $("header").css("border","none");
-     $("header").css("background-color","transparent")
+         if ($(".logo").hasClass('close')) {
+            $(".logo").removeClass('close');
+            $(".menu_left").slideUp(500);
+            $("header").css("border","none");
+            $("header").css("background-color","transparent")
 
-   } else {
-     $(".logo").addClass('close');
-     $(".menu_left").slideDown(500);
-     $("header").css("background-color","#fff");
-     $("header").css("border","solid 1px #bbb");
-   }
+         } else {
+             $(".logo").addClass('close');
+             $(".menu_left").slideDown(500);
+             $("header").css({"cssText":"background-color:#fff !important;"});
+             $("header").css("border","solid 1px #bbb");
+         }
+
+
+
+
  });
-
-}
-
-
-
 
 });
